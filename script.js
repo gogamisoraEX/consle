@@ -1,4 +1,4 @@
-fetch("test.txt")
+/*fetch("test.txt")
     .then((data) => data.text())
     .then((res) => console.log(res));
 
@@ -9,4 +9,8 @@ async function fetchData() {
 }
 fetchData();
 
-console.log("読み込みデータ")
+console.log("読み込みデータ")*/
+
+fetch("data.json")
+    .then((data) => data.json())
+    .then((res) => console.log(res));
