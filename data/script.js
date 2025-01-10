@@ -5,7 +5,7 @@ fetch("test.txt")
 async function fetchData() {
     const data = await fetch("test.txt");
     const res = await data.text();
-    console.log();
+    console.log(res);
 }
 fetchData();
 
