@@ -9,4 +9,4 @@ async function fetchData() {
 }
 fetchData();
 
-condole.log("読み込みデータ");
+console.log("読み込みデータ");
