@@ -2,4 +2,11 @@ fetch("test.txt")
     .then((data) => data.text())
     .then((res) => console.log(res));
 
-console.log("読み込みテスト")
+async function fetchData() {
+    const data = await fetch("test.txt");
+    const res = await data.text();
+    console.log();
+}
+fetchData();
+
+condole.log("読み込みデータ");
